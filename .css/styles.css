@@ -4,6 +4,7 @@ body{
     font-weight: 500;
 }.home-page{
     background-color: #f2d096;
+    padding-bottom: 1.5em;
     width: 100vw;
 }
 .banner-home{
@@ -162,6 +163,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding-top: 1.5em;
+    width: 100vw;
 }
 .formulario-infos{
     width: 45vw;
