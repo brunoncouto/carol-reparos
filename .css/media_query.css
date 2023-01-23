@@ -1,0 +1,44 @@
+@media screen and (max-width: 425px) {
+    .banner-image{
+        display: none;
+    }
+    .services-itens, .services-box{
+        justify-content: center;
+        display: flex;
+        flex-flow: row wrap;
+        width: 60vw
+    }
+    .services-itens{
+        width: 70vw;
+    }
+    .text-box-button{
+        margin-top: 1.5em;
+    }
+    .diferencial-lista{
+        display: flex;
+        flex-flow: row nowrap;
+        width: 100vw;
+    }
+    .diferencial-lista-item{
+        text-align: center;
+        margin: 0 0.75em;
+        padding: 0;
+        width: 30%;
+    }
+    .diferencial-lista-item:last-child{
+        padding-right: 1.5em;
+    }
+    .lista-item-icone{
+        display:none
+    }
+    .banner-title, .banner-subtitle, .banner-distritos, .banner-link-whatsapp{
+        padding: 0.5em;
+    }
+    .formulario-infos{
+        text-align: justify;
+        padding-right: 0.75em;
+    }
+    .info-distritos{
+        text-align: center;
+    }
+}
