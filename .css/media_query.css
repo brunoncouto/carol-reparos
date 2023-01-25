@@ -42,3 +42,12 @@
         text-align: center;
     }
 }
+@media screen and (max-width: 768px){
+    .services-box{
+        width: 35vw;
+        padding: 0 1.5em;
+    }
+    .banner-title, .banner-subtitle{
+        padding: 0 0.5em;
+    }
+}
